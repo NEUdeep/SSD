@@ -2,7 +2,9 @@ import os
 
 
 class DatasetCatalog:
-    DATA_DIR = 'datasets'
+    # DATA_DIR = 'datasets'
+    DATA_DIR = '/workspace/mnt/storage/kanghaidong/khdwork/work_data/detection_data/public-data/VOCdevkit/' # voc path
+    # COCO_ROOT = '/workspace/mnt/storage/kanghaidong/khdwork/work_data/detection_data/public-data/coco/' # you can by export to add os.path
     DATASETS = {
         'voc_2007_train': {
             "data_dir": "VOC2007",

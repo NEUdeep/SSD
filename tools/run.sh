@@ -1,0 +1,1 @@
+python train.py --config-file configs/efficient_net_b3_ssd300_voc0712.yaml
